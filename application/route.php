@@ -8,3 +8,9 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
+
+use think\Route;
+
+Route::get('banner/:id','api/v1.Banner/getBanner');
+
+Route::rule('hello','sample/Test/hello');
